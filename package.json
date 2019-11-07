@@ -12,6 +12,9 @@
     "prepare": "npm run build",
     "clean": "rm -rf lib/"
   },
+  "config": {
+    "unsafe-perm": true
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/cayasso/mongo-oplog.git"
